@@ -10,6 +10,12 @@ public class SumOfArray {
 			sum = sum + a[i];
 		}
 		
+		/*Enhanced for loop
+		
+		for(int value:a) {
+			sum = sum + value;
+		}*/
+		
 		System.out.println("The sum of given array is" + " "+ sum);
 
 	}
